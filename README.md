@@ -22,7 +22,7 @@ int main(){
  	  resultado = esVocal(nombre[i]);
 	  if(resultado == 1){m=1+m;}
 	  else { }
-	}
+}
 	
 	
 // clasifica entre numeros y letras del alfabeto
