@@ -5,14 +5,14 @@
 int esVocal(char c);
 int main(){
 	
-	char nombre[100];
-	char vocales[5]={'a','e','i','o','u' };
-	int i,r,p,e;
-	e=0;
+char nombre[100];
+char vocales[5]={'a','e','i','o','u' };
+int i,r,p,e;
+e=0;
 
-	printf("Reglas\n puedes introducir como maximo 100 carateres.\n Puestes intrtroducir numeros  del (0) al (9) y letras de la (a) a la (z). \n No repueden dejar espacios ni teclear otro carateres diferentes a los ya mencionados.");
-	printf("\nTeclea una cadena:");
-	scanf("%s", nombre);
+printf("Reglas\n puedes introducir como maximo 100 carateres.\n Puestes intrtroducir numeros  del (0) al (9) y letras de la (a) a la (z). \n No repueden dejar espacios ni teclear otro carateres diferentes a los ya mencionados.");
+printf("\nTeclea una cadena:");
+scanf("%s", nombre);
     //printf("%s\n", nombre); // sirve para ver la cadena guardada
 
 
